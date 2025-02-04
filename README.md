@@ -1,3 +1,5 @@
+AI PREDICTIVE MODEL FOR CREDIT UNDERWRITING
+
 Overview
 
 This project aims to automate the loan approval process using machine learning, reducing manual effort and improving accuracy in credit underwriting. By analyzing applicant demographic, financial, and loan-related attributes, the model predicts whether a loan application should be approved or rejected.
