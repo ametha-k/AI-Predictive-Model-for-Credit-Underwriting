@@ -1,10 +1,10 @@
-#AI PREDICTIVE MODEL FOR CREDIT UNDERWRITING
+# AI PREDICTIVE MODEL FOR CREDIT UNDERWRITING
 
-###Overview
+### Overview
 
 This project aims to automate the loan approval process using machine learning, reducing manual effort and improving accuracy in credit underwriting. By analyzing applicant demographic, financial, and loan-related attributes, the model predicts whether a loan application should be approved or rejected.
 
-###Dataset
+### Dataset
 
 The dataset, sourced from Kaggle, contains over 10,000 observations with features including:
 
@@ -16,7 +16,7 @@ Loan attributes (loan amount, term, interest rate, etc.)
 
 Target variable: Loan approval status (approved/rejected)
 
-###Data Preprocessing
+### Data Preprocessing
 
 To prepare the dataset for modeling, the following steps are performed:
 
@@ -32,7 +32,7 @@ Class Balancing: Addressing class imbalance with techniques like SMOTE.
 
 Train-Test Split: Dividing data into training and test sets.
 
-###Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 
 EDA is conducted to understand data distributions and relationships:
 
@@ -42,7 +42,7 @@ Bivariate & Multivariate Analysis: Correlation matrix, scatter plots, PCA.
 
 Target Variable Analysis: Understanding approval vs. rejection patterns.
 
-###Machine Learning Models
+### Machine Learning Models
 
 Multiple supervised learning models are trained and evaluated:
 
@@ -52,7 +52,7 @@ Random Forest: An ensemble model capturing feature interactions.
 
 XGBoost: A powerful gradient boosting model optimized for tabular data.
 
-###Model Evaluation
+### Model Evaluation
 
 Performance is assessed using:
 
@@ -70,6 +70,6 @@ Evaluating model fairness across demographic groups.
 
 Mitigating bias using fairness-aware techniques.
 
-###Deployment
+### Deployment
 
 Future work includes deploying the trained model as an API using Flask or FastAPI for integration into loan processing systems.
